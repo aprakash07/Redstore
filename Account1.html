@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Log In-Redstore</title>
+
+  <style>
+
+  #form {
+    position: relative; z-index: 1;
+    height: auto; width: 35%;
+    left: 32.5%;
+    top: 16%;
+    margin-bottom: 100px;
+    background: rgba(255, 255, 255, 0.9); border: 1px solid transparent;
+    text-align: center; padding-bottom: 20px;
+
+  }
+  input[type="text"] { padding: 7px 10px; font-size: 20px; margin: 10px 10px; width: 80%;
+  outline: 0;
+  border: 0px transparent;
+  font-family: "Quicksand";
+  }
+  input[type="password"] { padding: 7px 10px; font-size: 20px; margin: 10px 10px; width: 80%;
+  outline: 0;
+  border: 0px transparent;
+  font-family: "Quicksand";
+  }
+  input[type="submit"] { margin-top: 25px; padding: 10px;
+  font-size: 20px;
+  margin: 22px 10px 10px 10px; width: 60%;
+  outline: 0;
+  border: 0px transparent;
+  /border-radius: 10px;/ font-family: "Quicksand";
+  }
+  input[type="submit"]:hover { opacity: 0.8;
+  }
+  button{ margin-top: 25px; padding: 10px;
+  font-size: 20px;
+  margin: 22px 10px 10px 10px; width: 60%;
+  outline: 0;
+  border: 0px transparent;
+  /border-radius: 10px;/ font-family: "Quicksand";
+  }
+  Button:hover { opacity: 0.8;
+  }
+  h2 {
+  font-family: 'Ubuntu', serif; font-weight: 700;
+  letter-spacing: 0.1em; font-size: 200%;
+  }
+  </style>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+  <div class="navbar">
+    <div class="logo">
+      <img src="images/logo.png" width="125px">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="account1.html">Account</a></li>
+      </ul>
+    </nav>
+    <a href="#"><img src="images/cart.png" width="30px"></a>
+  </div>
+</div>
+
+<div id="form">
+<form>
+  <br>
+<h2>Log In</h2>
+<input type="text" style="width:80%" required placeholder="Username"><br>
+<input type="password" name="password" placeholder="Password" id="mob" required><br>
+<input type="submit" value="Log In" required style="color:white;background:#222222"><br>
+</form>
+<a href="account.html"><button style="color: white;background:#222222">Sign Up</button></a>
+</div>
+</body>
